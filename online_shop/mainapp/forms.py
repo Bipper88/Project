@@ -16,7 +16,8 @@ class OrderForm(forms.ModelForm):
         fields = (
             'first_name',
             'last_name',
-            'phone', 'address',
+            'phone',
+            'address',
             'buying_type',
             'order_date',
             'comment',
